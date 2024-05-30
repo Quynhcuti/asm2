@@ -1,0 +1,21 @@
+{
+    "name": "peach/c-oop",
+    "autoload": {
+        "psr-4": {
+            "Peach\\COop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quynhcuti",
+            "email": "quynhtn1308@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
