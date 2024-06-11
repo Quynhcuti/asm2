@@ -27,14 +27,14 @@ class UserController extends Controller
 
     public function create()
     {
-        // $this->renderViewAdmin('users.create');
-        for ($i = 0; $i < 10; $i++) {
-            $this->user->insert([
-                'name' => "Peach304 $i",
-                'email' => "Admin$i@poly.edu.vn",
-                'password' => password_hash('12345678', PASSWORD_DEFAULT),
-            ]);
-        }
+        $this->renderViewAdmin('users.create');
+        // for ($i = 0; $i < 10; $i++) {
+        //     $this->user->insert([
+        //         'name' => "Peach304 $i",
+        //         'email' => "Admin$i@poly.edu.vn",
+        //         'password' => password_hash('12345678', PASSWORD_DEFAULT),
+        //     ]);
+        // }
     }
 
     public function store()
