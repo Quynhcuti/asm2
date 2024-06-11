@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.khungto{
+    width: 1020px;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    width: 1020px;
+    height: 250px;
+}
+header>img{
+    width: 1020px;
+    height: 250px;
+}
+nav{
+    background: rgb(102, 102, 255);
+    height: 58px;
+    width: 1020px;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    padding: 20px  ;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 70px;
+    font-variant: small-caps;
+    color: white;
+}
+nav>ul>li>a:hover{
+    background-color: rgb(107, 213, 107);
+}

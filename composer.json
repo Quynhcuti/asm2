@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Peach\\COop\\": "src/"
-        }
+        },
+         "files": [
+            "helper.php"
+        ]
     },
     "authors": [
         {
